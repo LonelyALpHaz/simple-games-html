@@ -17,9 +17,3 @@ const playerChoices = document.querySelectorAll('.hash');
             choice.textContent = 'X';
         })
     })
-
-const board = [
-    [], [], [],
-    [], [], [],
-    [], [], []
-];
