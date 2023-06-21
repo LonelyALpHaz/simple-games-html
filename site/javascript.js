@@ -10,10 +10,10 @@ cells.forEach(cell => {
     });
 });
 
-const playerChoices = document.querySelectorAll('.hash');
+const choices = document.querySelectorAll(".hash");
 
-    playerChoices.forEach(function(choice) {
-        choice.addEventListener('click', function() {
-            choice.textContent = 'X';
-        })
-    })
+choices.forEach(function(choice) {
+  choice.addEventListener("click", function() {
+    choice.textContent = 'X';
+  });
+});
