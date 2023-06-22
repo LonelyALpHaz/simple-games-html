@@ -12,6 +12,27 @@ h1 {
     text-align: center;
 }
 
+div#iconbox {
+    text-align: center;
+}
+
+div#logos {
+    text-align: center;
+}
+
+div.gamelogo {
+    display: inline;
+    padding-inline: 100px;
+}
+
+div.gamelabel {
+    color: white;
+    display: inline;
+    padding-inline: 155px;
+    text-align: center;
+    font-size: 25pt;
+}
+
 .guide {
     color: white;
     font-family: 'Roboto Mono', monospace;
