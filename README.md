@@ -15,3 +15,13 @@ O xadrez é um jogo de estratégia disputado entre dois jogadores em um tabuleir
 As damas é um jogo de tabuleiro disputado entre dois jogadores em um tabuleiro quadrado com 64 casas alternadamente claras e escuras. Cada jogador começa com 12 peças colocadas nas casas escuras do seu lado do tabuleiro. As peças movem-se apenas diagonalmente para frente, capturando as peças do oponente ao saltar sobre elas. O objetivo é capturar todas as peças do adversário ou bloqueá-las de tal forma que não possam mais se mover. O jogo de damas requer habilidades estratégicas, planejamento de movimentos e antecipação para obter a vitória.
 #### Jogo da velha
 O jogo da velha é um jogo de tabuleiro disputado entre dois jogadores em um tabuleiro 3x3. Os jogadores alternam em colocar suas respectivas marcações, geralmente um "X" e um "O", em uma das casas vazias. O objetivo é formar uma linha reta de três marcações iguais, seja horizontal, vertical ou diagonalmente. Se todas as casas forem preenchidas sem que nenhuma linha seja formada, o jogo termina em empate. O jogo da velha é um desafio de estratégia e raciocínio rápido, onde os jogadores buscam criar oportunidades para vencer enquanto bloqueiam o adversário.
+
+## To-do List
+
+- [ ] Organizar as pastas do projeto
+- [ ] Desenvolver a página inicial do site
+- [ ] Desenvolver a página inicial dos jogos
+- [ ] Estilizar o tabuleiro de cada jogo
+- [ ] Implementar o algorítimo miniMAX
+- [ ] Criar uma página do site no Github Pages
+- [ ] Atualizar o README.md
