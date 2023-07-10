@@ -18,7 +18,7 @@ O jogo da velha é um jogo de tabuleiro disputado entre dois jogadores em um tab
 
 ## To-do List
 
-- [ ] Organizar as pastas do projeto
+- [ x ] Organizar as pastas do projeto
 - [ ] Desenvolver a página inicial do site
 - [ ] Desenvolver a página inicial dos jogos
 - [ ] Estilizar o tabuleiro de cada jogo
