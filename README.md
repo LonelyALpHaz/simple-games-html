@@ -1,4 +1,4 @@
-tudos com IA e<h1 align='center'>Simple Games HTML</h1>
+<h1 align='center'>Simple Games HTML</h1>
 <p align='center'>Alguns jogos simples desenvolvidos em JavaScript, HTML5 e CSS3
 <div align='center'>
  <img src='./assets/icone-grande.png' alt='icone-grande'>
