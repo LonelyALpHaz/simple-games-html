@@ -12,25 +12,48 @@ h1 {
     text-align: center;
 }
 
-div#iconbox {
+div#games-logo-container {
     text-align: center;
+    padding-top: 50px;
 }
 
-div#logos {
+a {
+    margin: 0px 25px 0px 25px;
+}
+
+svg {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+}
+
+div#games-label {
     text-align: center;
+    padding-top: 25px;
+    
 }
 
-div.gamelogo {
-    display: inline;
-    padding-inline: 100px;
-}
-
-div.gamelabel {
+label {
     color: white;
-    display: inline;
-    padding-inline: 155px;
+    font-weight: 600;
+    margin: 0px 57px 0px 56px;
+}
+
+div#bottom-div {
     text-align: center;
-    font-size: 25pt;
+}
+
+svg#github-repo {
+    height: 40px;
+    width: 40px;
+    padding-top: 230px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .guide {
@@ -43,25 +66,4 @@ div.gamelabel {
     align-items: center;
     text-align: center;
     display: flex;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: repeat(3, 150px);
-    justify-content: center;
-    position: relative;
-    padding-top: 25px;
-}
-
-.hash {
-    background-color: white;
-    text-align: center;
-    position: relative;
-    width: 150px;
-    height: 150px;
-    cursor: pointer;
-}
-
-.selected {
-    background-color: lightgray;
 }
