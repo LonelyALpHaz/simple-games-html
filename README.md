@@ -5,7 +5,7 @@
 </div>
 
 ## Propósito
-O propósito ao criar este site é poder estudar de forma didática e prática a linguagem ```JavaScript```, iniciar os estudos com o algorítimo ```minMAX``` e, além disso, aprender mais sobre a construção de sites com ```HTML5``` e ```CSS3```.
+O propósito ao criar este site é poder estudar de forma didática e prática a linguagem ```JavaScript```, iniciar os estudos com o algorítimo ```miniMAX``` e, além disso, aprender mais sobre a construção de sites com ```HTML5``` e ```CSS3```.
 
 ## Jogos disponíveis
 A princípio, a ideia é que o site disponibilize três jogos: xadrez, damas e jogo da velha. São três jogos simples, que todo mundo já jogou pelo menos uma vez na vida, e que são divertidos e até mesmo desafiadores.
