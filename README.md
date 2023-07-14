@@ -20,7 +20,7 @@ O jogo da velha é um jogo de tabuleiro disputado entre dois jogadores em um tab
 
 - [x] Organizar as pastas do projeto
 - [x] Desenvolver a página inicial do site
-- [ ] Desenvolver a página inicial dos jogos
+- [x] Desenvolver a página inicial dos jogos
 - [ ] Estilizar o tabuleiro de cada jogo
 - [ ] Implementar o algorítimo miniMAX
 - [ ] Criar uma página do site no Github Pages
