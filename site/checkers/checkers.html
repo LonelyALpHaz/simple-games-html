@@ -10,79 +10,84 @@
     <div id="content">
         <div>
             <h1>Damas</h1>
-            <p class="guide"><strong>Como jogar:</strong> O jogo de damas é um jogo de tabuleiro clássico, jogado em um tabuleiro quadriculado. O objetivo é capturar todas as peças do oponente ou bloqueá-las para que não possam mais se mover. As peças se movem diagonalmente e podem ser promovidas a "damas" ao alcançar a última linha do oponente. O empate no jogo de damas ocorre quando nenhum dos jogadores consegue alcançar uma vitória clara. Isso pode acontecer quando a posição se repete três vezes consecutivas, um jogador fica sem peças para mover ou quando ambos os jogadores concordam em empatar. </p>
-            <div class="chess-check-container">
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+            <p class="guide"><strong>Como jogar:</strong> O objetivo do jogo das damas é capturar todas as peças do oponente ou bloqueá-las para que não possam mais se mover. As peças se movem diagonalmente e podem ser promovidas a "damas" ao alcançar a última linha do oponente. O empate no jogo de damas ocorre quando nenhum dos jogadores consegue alcançar uma vitória clara. Isso pode acontecer quando a posição se repete três vezes consecutivas, um jogador fica sem peças para mover ou quando ambos os jogadores concordam em empatar. </p>
+            <div id="btn">
+                <button onclick="iniciar()">Iniciar</button>
+            </div>
+            <div id="board" style="display: none;">
+                <div class="chess-check-container">
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
 
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35);"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
 
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
 
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
 
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
 
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
 
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
 
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
-                <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
-                <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                    <div class="chess-check-board" style="background-color: rgb(35, 35, 35)"></div>
+                    <div class="chess-check-board" style="background-color: white;"></div>
+                </div>
             </div>
         </div>
         <div id="copyright-bottom">
@@ -95,5 +100,6 @@
             <footer>&copy;LonelyALpHaz 2023</footer>
         </div>
     </div>
+    <script src="../javascript/board.js"></script>
 </body>
 </html>

@@ -28,6 +28,21 @@ svg#github-repo {
     padding-bottom: 5px;
 }
 
+div#btn {
+    text-align: center;
+    padding-top: 195px;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    background-color: white;
+    color: hsl(220.55,15.60%,17.45%);
+    height: 50px;
+    width: 200px;
+    border-radius: 5px;
+}
+
 .footer {
     color: white;
     font-family: Arial, Helvetica, sans-serif;

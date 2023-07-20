@@ -9,19 +9,24 @@
 <body>
     <div id="content">
         <h1>Jogo da Velha</h1>
-        <p class="guide"><strong>Como jogar:</strong> No jogo da velha, os jogadores escolhem entre os símbolos X e O e tentam formar uma coluna, linha ou diagonal com o mesmo símbolo antes que o tabuleiro fique sem espaços ou que o adversário vença. O objetivo é ser o primeiro a completar uma linha reta com seus símbolos ou bloquear o oponente para impedir que ele alcance a vitória. O jogo termina em empate se todas as células forem preenchidas sem que nenhuma linha reta seja formada.</p>
-        <div class="hash-container">
-            <div class="hash-board"></div>
-            <div class="hash-board"></div>
-            <div class="hash-board"></div>
+        <p class="guide"><strong>Como jogar:</strong> No jogo da velha, os jogadores escolhem entre os símbolos X e O e tentam formar uma coluna, linha ou diagonal com o mesmo símbolo antes que o tabuleiro fique sem espaços ou que o adversário vença. O objetivo é ser o primeiro a completar uma linha reta com seus símbolos ou bloquear o oponente para impedir que ele alcance a vitória. O jogo termina em empate se todas as células forem preenchidas sem que nenhuma linha reta seja formada pelos símbolos iguais.</p>
+        <div id="btn">
+            <button onclick="iniciar()">Iniciar</button>
+        </div>
+        <div id="board" style="display: none;">
+            <div class="hash-container">
+                <div class="hash-board"></div>
+                <div class="hash-board"></div>
+                <div class="hash-board"></div>
 
-            <div class="hash-board"></div>
-            <div class="hash-board"></div>
-            <div class="hash-board"></div>
-        
-            <div class="hash-board"></div>
-            <div class="hash-board"></div>
-            <div class="hash-board"></div>
+                <div class="hash-board"></div>
+                <div class="hash-board"></div>
+                <div class="hash-board"></div>
+            
+                <div class="hash-board"></div>
+                <div class="hash-board"></div>
+                <div class="hash-board"></div>
+            </div>
         </div>
         <div id="copyright-bottom">
             <div id="copy-content">
@@ -33,6 +38,6 @@
             <footer>&copy;LonelyALpHaz 2023</footer>
         </div>
     </div>
-    <script type="module" src="hash.js"></script>
+    <script src="../javascript/board.js"></script>
 </body>
 </html>
